@@ -1,0 +1,171 @@
+body {
+	background-color: #F3EAE3;
+	padding: 0;
+	margin: 0;
+}
+.attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+div{
+	
+}
+
+h1 {
+	height: 60px;
+	width: 250px;
+}
+
+h3 {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.card {
+	background-color: white;
+	width: 600px;
+	height: 450px;
+	margin: 100px auto;
+	border-radius: 10px;
+}
+
+.hero {
+	display: inline-block;
+	width: 300px;
+	height: 450px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-image: url('images/image-product-desktop.jpg');
+	background-size: cover;
+}
+
+.right {
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+	width: 300px;
+	height: 450px;
+	padding: 30px auto;
+	
+}
+
+.right h1,p,h2,h3,a {
+	/*font-family: serif;*/
+	font-size: 15px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.right h3,p,a {
+	font-family: 'Montserrat';
+	src: url('Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+	color: gray;
+}
+
+.right h1,h2 {
+	font-family: 'Fraunces';
+	src: url('Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf');
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.price h2 {
+	display: inline-block;
+	/*background-color: red;*/
+	color: #448571;
+}
+
+.price p {
+	display: inline-block;
+	position: relative;
+	bottom: 5px;
+	text-decoration: line-through;
+}
+
+.right a {
+	display: block;
+	background-color: #448571;
+	color: white;
+	width: 165px;
+	height: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
+	padding-left: 60px;
+}
+
+.text_button {
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
+	bottom: 2.5px;
+	color: white;
+	font-weight: bold;
+
+}
+
+@media (max-width: 600px) {
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.card {
+		width: 345px;
+		height: 610px;
+		margin: 25px auto;
+	}
+	
+	.hero {
+		width: 345px;
+		height: 240px;
+		display: block;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0px;
+		background-image: url('images/image-product-mobile.jpg');
+	}
+	
+	.right {
+		width: 345px;
+		display: block;
+		margin-right: 10px;
+	}
+
+	.right p {
+		padding-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.right .price {
+		padding-bottom: 15px;
+	}
+
+	.right #button {
+		width: 220px;
+		height: 10px;
+		display: block;
+		padding-bottom: 30px;
+		padding-right: 3px;
+		margin-top: 10px;
+		line-height: 2.5;
+	}
+
+	.text_button, .icon{
+		position: relative;
+		left: 20px;
+	} 
+	
+	h1 {
+		height: 60px;
+		width: 250px;
+	}
+}
